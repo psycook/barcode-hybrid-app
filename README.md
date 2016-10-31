@@ -4,6 +4,10 @@ This Ionic Hybrid App simulates a delivery service App where the user can scan i
 This git repository just contains the www folder for the Ionic hybrid application due to the large size of the complete project.
 
 #Prerequisits
+Cordova must be installed
+Ionic must be installed
+npm must be installed
+An Org. with Digital Signature Objects, Some Orders and Products Configured and Return Objects Configured. - simon.cook@salesforce.com for more information.
 
 #1.  Install the ionic Salesforce start application
 ionic start Barcode salesforce
