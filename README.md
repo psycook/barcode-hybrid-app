@@ -10,7 +10,9 @@ npm must be installed
 An Org. with Digital Signature Objects, Some Orders and Products Configured and Return Objects Configured. - simon.cook@salesforce.com for more information.  
 
 #1.  Install the ionic Salesforce start application
+```
 ionic start Barcode salesforce
+```
 
 #2.  Install the icon and splash screens
 cd Barcode  
