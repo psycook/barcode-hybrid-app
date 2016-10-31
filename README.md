@@ -3,7 +3,7 @@ This Ionic Hybrid App simulates a delivery service App where the user can scan i
 
 This git repository just contains the www folder for the Ionic hybrid application due to the large size of the complete project.
 
-#Prerequisits
+#Prerequisites
 Cordova must be installed
 Ionic must be installed
 npm must be installed
