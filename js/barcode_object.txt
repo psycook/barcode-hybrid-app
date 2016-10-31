@@ -1,0 +1,24 @@
+This file contains objects to be used when generating QR codes for the application.  Some configuration is the org is required for the Orders to display and the return items to work.
+
+BAT Org
+
+Return Stock Screen (the object id here is the account id for the returned item)
+{"Account__c":"0015800000CiVU6AAN","Description__c":"Segal News Order - Mixed Cartons","Notes__c":"Picked on iOS"}
+
+Picking List Items
+{"ProductCode":"LS-RD-KG20"}
+{"ProductCode":"LS-RD-KG20"}
+{"ProductCode":"LS-RD-KG20"}
+{"ProductCode":"LS-RD-KG20"}
+
+Distribtor.cdo Org
+
+Return Stock Screen (the object id here is the account id for the returned item)
+{"Account__c":"0015800000BCEyeAAH","Description__c":"Segal News Order - Mixed Cartons","Notes__c":"Picked on iOS"}
+
+Picking List Items
+{"ProductCode":"AP-6000-2304"}
+{"ProductCode":"BP-2000-1000"}
+{"ProductCode":"DP-7543-1000"}
+{"ProductCode":"EP-1000-1000"}
+{"ProductCode":"ZP-2000-1000"}

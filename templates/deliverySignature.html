@@ -1,0 +1,14 @@
+<ion-view title="Digital Signature">
+    <ion-content class="has-header" scroll='false'>
+      <!-- Scan Button -->
+      <div class="row">
+         <div class="col text-center">
+           <p>Please Enter your signature below:</p>
+           <canvas id='signatureCanvas' width='300' height='180' style='border: 1px solid black; background-color: white;'></canvas>
+           <br>
+           <button class='button button-calm icon-left ion-close' ng-click='clearCanvas()'>Clear</button>
+           <button class="button button-balanced icon-left ion-checkmark" ng-click="sign()">Sign</button>
+         </div>
+      </div>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,29 @@
+
+
+@-webkit-keyframes slideInSmooth {
+  0% {
+    -webkit-transform: translate3d(-100%,0,0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translate3d(0,0,0);
+    opacity: 1;
+  }
+}
+
+.slide-in {
+  -webkit-animation: slideInSmooth ease-in 1;
+  animation: slideInSmooth ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 750ms;
+  animation-duration: 750ms;
+}
+
+.background, .background .pane, .background .item, .background .item-complex {
+    background-color: #1798c1;
+}
+
+.card .item{
+  background: white;
+}

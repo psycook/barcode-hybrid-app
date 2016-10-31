@@ -1,0 +1,43 @@
+<ion-view title="Picking List Scan">
+    <ion-content class="has-header">
+      <!-- Scan Button -->
+      <div class="row">
+         <div class="col text-center">
+           <button class="button button-balanced icon-left ion-grid" ng-click="scanBarcode()">
+              Scan Barcode
+           </button>
+         </div>
+      </div>
+
+    <ion-list>
+      <ion-item class="slide-in item" ng-repeat="orderItem in orderItems track by $index" href="#">
+        <div class="item-icon-left">
+          <i class="icon ion-cube"></i>
+          {{orderItem.PricebookEntry.Product2.ProductCode}}
+        </div>
+      </ion-item>
+    </ion-list>
+
+      <!-- Action Buttions, Aligned to page bottom hence not in content -->
+      <div class="row">
+         <div class="col text-center">
+           <button class="button button-calm icon-left ion-reply" ng-click="pickItems()">
+              Done
+           </button>
+           <button class="button button-calm icon-left ion-forward" ng-click="testItem()">
+              Test Item
+           </button>
+         </div>
+      </div>
+
+      <div class="col text-center" ng-show="showSignPad">
+        <p>Please Enter your signature below:</p>
+        <canvas id='signatureCanvas' width='300' height='180' style='border: 1px solid black; background-color: white;'></canvas>
+        <br>
+        <button class='button button-calm icon-left ion-close' ng-click='cancelSignature()'>Cancel</button>
+        <button class='button button-calm icon-left ion-refresh' ng-click='clearSignature()'>Clear</button>
+        <button class="button button-balanced icon-left ion-checkmark" ng-click="sign()">Sign</button>
+      </div>
+
+    </ion-content>
+</ion-view>
